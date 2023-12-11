@@ -1,0 +1,17 @@
+{
+  "name": "09.frontend-mentors",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
+    "dev": "tailwindcss -i ./style.css -o ./output.css --watch"
+  },
+  "author": "Takie Eldeen",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "tailwindcss": "^3.3.6"
+  }
+}
